@@ -8,6 +8,6 @@ export default function App({ Component, pageProps }) {
   autoClose={5000}
   theme="dark"
   />
-  <Component {...pageProps} />;
+  <Component {...pageProps} />
   </>
 }
