@@ -46,7 +46,10 @@ export default function Filme(){
                         <button className="w-[46%] flex items-center justify-center gap-2 h-full border border-[#9b87f533] rounded-md text-[#9b87f5] hover:bg-[#9b87f5]/20 cursor-pointer py-2">
                         <PiNotePencil size={20}/>
                         Editar Filme</button>
-                        <button className="w-[46%] flex items-center justify-center gap-2 h-full border border-[#9b87f533] rounded-md text-[#ef4444] hover:bg-[#ef4444]/20 cursor-pointer py-2">
+                        <button
+                       
+                         className="w-[46%] flex items-center justify-center gap-2 h-full border border-[#9b87f533] rounded-md text-[#ef4444] hover:bg-[#ef4444]/20 cursor-pointer py-2">
+                        
                         <IoTrashBin size={20} />
                         Excluir Filme</button>
                     </div>
@@ -65,7 +68,7 @@ export default function Filme(){
                        </div>
                   </div>
                   <div className="w-full flex flex-col mt-2">
-                    <h4 className="text-[20px] font-bold "></h4>
+                    <h4 className="text-[20px] font-bold ">Diretor</h4>
                     <p className="text-[#8a898c]">{filme.diretor}</p>
                   </div>
                   <div className="w-full flex flex-col">
